@@ -168,24 +168,28 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.container {
+  /*max-width: 800px;*/
+  width: 100%;
+  margin: auto;
+}
 .navbar {
   width: 100%;
   display: flex;
+  justify-content: space-between;
   margin-top: 20px;
   padding-bottom: 25px;
-  justify-content: space-between;
+  padding: 0, 15px;
   border-bottom: 2px dashed #C0C0C0;
-}
-.nav {
-  display: flex;
-  justify-content: space-around;
+  /* border: 2px solid blue; */
 }
 a {
   text-decoration: none;
   font-size: 1.5rem;
   color: black;
   padding: 5%;
-  margin-right: 50px;
+  margin-left: 20px;
+  /* border: 2px dashed red;*/
 }
 .footer {
   width: 100%;
