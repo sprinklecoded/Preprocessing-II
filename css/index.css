@@ -168,6 +168,25 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.navbar {
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+  padding-bottom: 25px;
+  justify-content: space-between;
+  border-bottom: 2px dashed #C0C0C0;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+}
+a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: black;
+  padding: 5%;
+  margin-right: 50px;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -224,4 +243,9 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.welcomesection {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  border-bottom: 2px dashed #C0C0C0;
 }
